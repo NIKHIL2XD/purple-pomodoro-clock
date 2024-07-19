@@ -3,6 +3,83 @@ html {
     width: 100%;
   }
   
+  .hide {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
   body{
+    background-color: #f4d6ff;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .main-box {
+    background-color: #000000;
+    width: min(90%, 600px);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 4em 8em;
+    border-radius: 0.5em;
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .top-container {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+  }
+  
+  .button {
+    padding: 1em 2em;
+    border-radius: 0.5em;
     background-color: #faf0ff;
+    color: #390859;
+    
+  }
+  
+  .button-focus {
+    background-color: #5307b0;
+    color: #ffffff;
+  }
+  
+  .time-button-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+  }
+  
+  #time {
+    text-align: center;
+    color: #ffffff;
+    font-size: 5em;
+    font-weight: 600;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+  }
+  
+  #button-start, #button-pause {
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    background-color: #ffffff;
   }
