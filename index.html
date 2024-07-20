@@ -1,32 +1,32 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  <div class="main-box">
-    <div class="top-container" >
-      <button id="focus" class="button btn-timer button-focus">Focus</button>
-      <button id="shortbreak" class="button button-shortbreak">Short Break</button>
-      <button id="longbreak" class="button button-longbreak">Long Break</button>
-      <div class="mid-container">
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro Clock</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="section-container">
+        <button id="focus" class="btn btn-timer btn-focus">Focus Mode</button>
+        <button id="shortbreak" class="btn btn-shortbreak">Short Break</button>
+        <button id="longbreak" class="btn btn-longbreak">Long Break</button>
+      </div>
+      <div class="time-btn-container">
         <span id="time"></span>
-        <div class="botttom-container">
-          <button id="start" class="show">Start</button>
-          <button id="pause" class="hide">Pause</button>
-          <button id="reset" class="hide">
+        <div class="btn-container">
+          <button id="btn-start" class="show">Start</button>
+          <button id="btn-pause" class="hide">Pause</button>
+          <button id="btn-reset" class="hide">
             <i class="fa-solid fa-rotate-right"></i>
           </button>
         </div>
       </div>
     </div>
-  </div>
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
